@@ -40,21 +40,23 @@ This is the backend service for the **Student Job Tracker** web application. It 
 ## 📂 Folder Structure
 
 1. **Backend Directory**:
-   backend/
-   ├── src/
-   │ ├── controllers/ # Handles business logic
-   │ │ └── jobController.js
-   │ ├── routes/ # Defines API endpoints
-   │ │ └── jobRoutes.js
-   │ ├── models/ # Mongoose schemas
-   │ │ └── Job.js
-   │ ├── config/ # Database connection setup
-   │ │ └── db.js
-   │ └── index.js # Main entry point for the backend
-   ├── .env # Environment variables (not pushed to GitHub)
-   ├── .gitignore # To ignore unnecessary files (e.g., node_modules)
-   ├── package.json # Node.js dependencies and scripts
-   └── README.md # Documentation for the backend
+
+````
+ backend/
+ ├── src/
+ │ ├── controllers/ # Handles business logic
+ │ │ └── jobController.js
+ │ ├── routes/ # Defines API endpoints
+ │ │ └── jobRoutes.js
+ │ ├── models/ # Mongoose schemas
+ │ │ └── Job.js
+ │ ├── config/ # Database connection setup
+ │ │ └── db.js
+ │ └── index.js # Main entry point for the backend
+ ├── .env # Environment variables (not pushed to GitHub)
+ ├── .gitignore # To ignore unnecessary files (e.g., node_modules)
+ ├── package.json # Node.js dependencies and scripts
+ └── README.md # Documentation for the backend
 
 ---
 
@@ -63,10 +65,10 @@ This is the backend service for the **Student Job Tracker** web application. It 
 1. **Clone the Repository**:
 
 - Copy the repository URL from GitHub and run:
-  ```bash
-  git clone https://github.com/RahulBarolia/Student_Job_Tracker_Backend_Apis.git
-  cd backend
-  ```
+```bash
+git clone https://github.com/RahulBarolia/Student_Job_Tracker_Backend_Apis.git
+cd backend
+````
 
 2. **Install Dependencies**:
 
